@@ -6,3 +6,4 @@
 
 * [Higher-order function](pages/Higher-order-function.md "Higher order function")
 
+* [Higher-order Component](pages/Higher-order-component.md "Higher Order Component")
