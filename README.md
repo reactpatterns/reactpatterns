@@ -9,3 +9,5 @@
 * [Higher-order Component](pages/Higher-order-component.md "Higher Order Component")
 
 * [Accessing a child component](pages/Accessing-a-child-component.md "Accessing a child component")
+
+* [Container component](pages/Container-component.md "Container component")
