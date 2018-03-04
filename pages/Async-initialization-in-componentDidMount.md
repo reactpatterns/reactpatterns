@@ -4,7 +4,6 @@ You should avoid async initialization in componentWillMount(), componentWillMoun
 
 You should make async calls for component initialization in componentDidMount() instead of componentWillMount()
 
-
 ```
 function componentDidMount() {
   axios.get(`api/sms`)

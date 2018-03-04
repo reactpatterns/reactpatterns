@@ -4,7 +4,6 @@ Higher Order components in React follow the important concept of Composition. In
 
 Higher Order Component in ReactJS is similar to HOF and can be defined as any function that takes a Component as Argument and returns another Component. The returned component will contain/compose the initial argument passed in the argument to the function.
 
-
 ```
 export default HOC(ComposedComponent) {
   return class WrapperComponent extends React.Component {

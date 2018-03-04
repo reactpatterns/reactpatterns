@@ -6,7 +6,6 @@ eg. You have a sign-in form, you want to put the cursor in the user name filed o
 
 Let take a look the child component.
 
-
 ```
 class Input extends Component {
   focus() {
@@ -26,7 +25,6 @@ class Input extends Component {
 An Input component with a `focus()` method that focuses the HTML element.
 
 In the parent component, we can get a reference to the Input component and call its `focus()` method.
-
 
 ```
 class SignInModal extends Component {

@@ -4,7 +4,6 @@ A container does data fetching and then renders its corresponding sub-component.
 
 Assume that you have a component that displays comments. You didn’t know about container components. So, you put everything in one place.
 
-
 ```
 const fetchSomeComments = cb =>
   cb([
@@ -42,7 +41,6 @@ CommentList can’t be reused unless under the exact same circumstances.
 
 Lets pull out data-fetching into a container component.
 
-
 ```
 class CommentListContainer extends React.Component {
   state = { comments: [] };
@@ -59,7 +57,6 @@ class CommentListContainer extends React.Component {
 ```
 
 Now, let’s rework CommentList to take comments as a prop.
-
 
 ```
 const CommentList = props =>

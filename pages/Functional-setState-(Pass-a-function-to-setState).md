@@ -48,7 +48,6 @@ this.setState(function (state, props) {
 
 Ex:
 
-
 ```
 function increment(state, props) {
   return {
