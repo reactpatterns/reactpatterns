@@ -11,3 +11,5 @@
 * [Accessing a child component](pages/Accessing-a-child-component.md "Accessing a child component")
 
 * [Container component](pages/Container-component.md "Container component")
+
+* [JSX spread attributes](pages/JSX-spread-attributes.md "JSX spread attributes")
