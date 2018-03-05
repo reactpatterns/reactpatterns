@@ -13,3 +13,7 @@
 * [Container component](pages/Container-component.md "Container component")
 
 * [JSX spread attributes](pages/JSX-spread-attributes.md "JSX spread attributes")
+
+* [Render callback](pages/Render-callback.md "Render callback")
+
+<!-- http://americanexpress.io/faccs-are-an-antipattern/ -->

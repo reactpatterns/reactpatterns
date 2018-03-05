@@ -13,6 +13,6 @@ function get(prop){
 }
 
 let getName = get("name");
-let name = getName({"name": "Rahat"});
+let name = getName({"name": "Bunlong"});
 console.log(name);
 ```
