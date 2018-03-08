@@ -8,7 +8,7 @@ Here is the list of options for conditional rendering:
 
 * [if else](If-else.md "if else")
 
-* ternary operation
+* [ternary operation](Ternary-operation.md "ternary operation")
 
 * logical && operator
 
