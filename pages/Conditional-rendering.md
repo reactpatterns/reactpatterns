@@ -10,7 +10,7 @@ Here is the list of options for conditional rendering:
 
 * [ternary operation](Ternary-operation.md "ternary operation")
 
-* logical && operator
+* [logical && operator](Logical-and-operator.md "logical && operator")
 
 * switch case operator
 
