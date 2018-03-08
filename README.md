@@ -18,4 +18,6 @@
 
 * [Function as child component](pages/Function-as-child-component.md "Function as child component")
 
+* [Function as prop component](pages/Function-as-prop-component.md "Function as prop component")
+
 <!-- http://americanexpress.io/faccs-are-an-antipattern -->
