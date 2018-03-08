@@ -23,3 +23,5 @@
 * [Component injection](pages/Component-injection.md "Component injection")
 
 * [Conditional rendering](pages/Conditional-rendering.md "Conditional rendering")
+
+<!-- https://www.robinwieruch.de/conditional-rendering-react/#conditional-rendering-hoc -->

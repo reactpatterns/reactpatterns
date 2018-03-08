@@ -6,18 +6,18 @@ But what is conditional rendering in React? In a conditional render a component 
 
 Here is the list of options for conditional rendering:
 
-* [if else](If-else.md "if else")
+* [If else](If-else.md "If else")
 
-* [ternary operation](Ternary-operation.md "ternary operation")
+* [Ternary operation](Ternary-operation.md "Ternary operation")
 
-* [logical && operator](Logical-and-operator.md "logical && operator")
+* [Logical && operator](Logical-and-operator.md "Logical && operator")
 
-* switch case operator
+* Switch case operator
 
-* Conditional Rendering with enums
+* Conditional rendering with enums
 
-* Multi-Level Conditional Rendering
+* Multi-Level conditional rendering
 
-* With Higher Order Components
+* With higher order component
 
-* External Templating Components
+* External templating component
