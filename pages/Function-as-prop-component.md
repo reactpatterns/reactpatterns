@@ -6,7 +6,7 @@ So how could you pass a [Render callback](pages/Render-callback.md "Render callb
 
 You would need to name your prop meaningful.
 
-Here’s how yout could change the Foo example to pass a function as a prop.
+Here’s how you could change the Foo example to pass a function as a prop.
 
 ```
 <Foo hello={(name) => <div>`hello from ${name}`</div>} />

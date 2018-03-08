@@ -20,4 +20,4 @@
 
 * [Function as prop component](pages/Function-as-prop-component.md "Function as prop component")
 
-<!-- http://americanexpress.io/faccs-are-an-antipattern -->
+* [Component injection](pages/Component-injection.md "Component injection")
