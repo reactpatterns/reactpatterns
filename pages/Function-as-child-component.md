@@ -49,6 +49,7 @@ And then you could use it as.
 <PageWidth>
   {width => <div>Page width is {width}</div>}
 </PageWidth>
+```
 
 As you can see above, children is "overloaded" and passed to PageWidth as a function instead of being a ReactNodeList as nature intended. The PageWidth component’s render method calls this.props.children (passing it width), which returns rendered JSX.
 
