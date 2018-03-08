@@ -6,7 +6,7 @@ But what is conditional rendering in React? In a conditional render a component 
 
 Here is the list of options for conditional rendering:
 
-* [if else](pages/If-else.md "if else")
+* [if else](If-else.md "if else")
 
 * ternary operation
 
