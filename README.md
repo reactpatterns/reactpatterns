@@ -16,4 +16,6 @@
 
 * [Render callback](pages/Render-callback.md "Render callback")
 
-<!-- http://americanexpress.io/faccs-are-an-antipattern/ -->
+* [Function as child component](pages/Function-as-child-component.md "Function as child component")
+
+<!-- http://americanexpress.io/faccs-are-an-antipattern -->

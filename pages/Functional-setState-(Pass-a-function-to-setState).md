@@ -32,7 +32,7 @@ class User {
 }
 ```
 
-Note how `setState()` works. You pass it an object containing part(s) of the state you want to update. In other words, the object you pass would have keys corresponding to the keys in the component state, then `setState()` updates or sets the state by merging the object to the state. Thus, “set-State”.
+Note how `setState()` works. You pass it an object containing part(s) of the state you want to update. In other words, the object you pass would have keys corresponding to the keys in the component state, then `setState()` updates or sets the state by merging the object to the state. Thus, "set-State".
 
 Instead of passing an object, you could pass a function to setState as well.
 

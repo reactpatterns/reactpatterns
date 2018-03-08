@@ -35,7 +35,7 @@ ReactDOM.render(
 );
 ```
 
-Your component is responsible for both fetching data and presenting it. There’s nothing “wrong” with this but you miss out on a few benefits of React.
+Your component is responsible for both fetching data and presenting it. There’s nothing "wrong" with this but you miss out on a few benefits of React.
 
 CommentList can’t be reused unless under the exact same circumstances.
 

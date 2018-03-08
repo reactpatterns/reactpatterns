@@ -1,6 +1,6 @@
 # Render callback
 
-Take a look at the example below. Notice that we create a function `foo` which takes a callback function as a parameter. When we call `foo`, it turns around and “calls back” to the passed-in function.
+Take a look at the example below. Notice that we create a function `foo` which takes a callback function as a parameter. When we call `foo`, it turns around and "calls back" to the passed-in function.
 
 ```
 const foo = (hello) => {
@@ -30,7 +30,7 @@ const App = () => {
 };
 ```
 
-`FieldItem` will render either the `Loading` or the `Profile` component, depending on the existence of a `user` property. It also passes down a prop of its own, `username`, that one of these components can consume to make a call
+`FieldItem` will render either the `Loading` or the `Profile` component, depending on the existence of a `user` property. It also passes down a prop of its own, `username`, that one of these components can consume to make a call.
 
 What is interesting here is that `<FieldItem/>` uses a function as a child. Any child component inside it is now free to consume this prop however it needs to, totally decoupled from the parent.
 
