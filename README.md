@@ -21,3 +21,5 @@
 * [Function as prop component](pages/Function-as-prop-component.md "Function as prop component")
 
 * [Component injection](pages/Component-injection.md "Component injection")
+
+* [Conditional rendering](pages/Conditional-rendering.md "Conditional rendering")
