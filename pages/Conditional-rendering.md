@@ -14,7 +14,7 @@ Here is the list of options for conditional rendering:
 
 * [Switch case operator](Switch-case-operator.md "Switch case operator")
 
-* Conditional rendering with enums
+* [Conditional rendering with enum](Conditional-rendering-with-enum.md "Conditional rendering with enum")
 
 * Multi-Level conditional rendering
 
