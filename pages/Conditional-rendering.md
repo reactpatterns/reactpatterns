@@ -20,4 +20,4 @@ Here is the list of options for conditional rendering:
 
 * [With higher order component](With-higher-order-component.md "With higher order component")
 
-* External templating component
+* [External templating component](External-templating-component.md "External templating component")
