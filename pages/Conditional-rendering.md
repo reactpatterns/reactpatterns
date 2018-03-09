@@ -18,6 +18,6 @@ Here is the list of options for conditional rendering:
 
 * [Multi-Level conditional rendering](Multi-level-conditional-rendering.md "Multi-Level conditional rendering")
 
-* With higher order component
+* [With higher order component](With-higher-order-component.md "With higher order component")
 
 * External templating component
