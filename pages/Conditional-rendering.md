@@ -16,7 +16,7 @@ Here is the list of options for conditional rendering:
 
 * [Conditional rendering with enum](Conditional-rendering-with-enum.md "Conditional rendering with enum")
 
-* Multi-Level conditional rendering
+* [Multi-Level conditional rendering](Multi-level-conditional-rendering.md "Multi-Level conditional rendering")
 
 * With higher order component
 
