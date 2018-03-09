@@ -12,7 +12,7 @@ Here is the list of options for conditional rendering:
 
 * [Logical && operator](Logical-and-operator.md "Logical && operator")
 
-* Switch case operator
+* [Switch case operator](Switch-case-operator.md "Switch case operator")
 
 * Conditional rendering with enums
 
