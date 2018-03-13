@@ -28,7 +28,7 @@
 
 * [Destructuring function arguments](pages/Destructuring-function-arguments.md "Destructuring function arguments")
 
-* Nested destructuring
+* [Nested destructuring](pages/Nested-destructuring.md "Nested destructuring")
 
 <!-- https://www.saltycrane.com/blog/2016/03/es6-features-used-react-development/
 https://amido.com/blog/using-es6-destructuring-in-your-react-components/
