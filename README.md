@@ -24,4 +24,13 @@
 
 * [Conditional rendering](pages/Conditional-rendering.md "Conditional rendering")
 
-<!-- https://www.robinwieruch.de/conditional-rendering-react/#conditional-rendering-hoc -->
+* Destructuring
+
+* Destructuring function arguments
+
+* Nested destructuring
+
+<!-- https://www.saltycrane.com/blog/2016/03/es6-features-used-react-development/
+https://amido.com/blog/using-es6-destructuring-in-your-react-components/
+https://rangle-io.gitbooks.io/react-training/content/book/es6_constructs/destructuring.html
+https://rangle-io.gitbooks.io/react-training/content/book/es6_constructs/template_literals.html -->
