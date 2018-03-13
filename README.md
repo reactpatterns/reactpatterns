@@ -30,6 +30,8 @@
 
 * [Nested destructuring](pages/Nested-destructuring.md "Nested destructuring")
 
+* [Destructuring rest/spread operator](pages/Destructuring-rest-and-spread-operator.md "Destructuring rest/spread operator")
+
 <!-- https://www.saltycrane.com/blog/2016/03/es6-features-used-react-development/
 https://amido.com/blog/using-es6-destructuring-in-your-react-components/
 https://rangle-io.gitbooks.io/react-training/content/book/es6_constructs/destructuring.html
