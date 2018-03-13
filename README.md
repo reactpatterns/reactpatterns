@@ -26,7 +26,7 @@
 
 * [Destructuring](pages/Destructuring.md "Destructuring")
 
-* Destructuring function arguments
+* [Destructuring function arguments](pages/Destructuring-function-arguments.md "Destructuring function arguments")
 
 * Nested destructuring
 
