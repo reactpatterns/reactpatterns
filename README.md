@@ -24,7 +24,7 @@
 
 * [Conditional rendering](pages/Conditional-rendering.md "Conditional rendering")
 
-* Destructuring
+* [Destructuring](pages/Destructuring.md "Destructuring")
 
 * Destructuring function arguments
 
