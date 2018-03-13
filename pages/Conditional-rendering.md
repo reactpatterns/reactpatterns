@@ -24,7 +24,7 @@ Here is the list of options for conditional rendering:
 
 When to use which type of conditional render?
 
-* If-else
+* [If else](If-else.md "If else")
 
    * is the most basic conditional rendering
 
@@ -32,19 +32,19 @@ When to use which type of conditional render?
 
    * use if to opt-out early from a render method by returning null
 
-* Ternary operator
+* [Ternary operation](Ternary-operation.md "Ternary operation")
 
    * use it over an if-else statement
 
    * it is more concise than if-else
 
-* Logical && operator
+* [Logical && operator](Logical-and-operator.md "Logical && operator")
 
    * use it when one side of the ternary operation would return null
 
    * but be careful that you don’t run into bugs when using multiple conditions
 
-* Switch case
+* [Switch case operator](Switch-case-operator.md "Switch case operator")
 
    * verbose
 
@@ -52,13 +52,13 @@ When to use which type of conditional render?
 
    * avoid it, use enums instead
 
-* enum
+* [Conditional rendering with enum](Conditional-rendering-with-enum.md "Conditional rendering with enum")
 
    * perfect to map different states
 
    * perfect to map more than one condition
 
-* multi-level/nested conditional rendering
+* [Multi-Level conditional rendering](Multi-level-conditional-rendering.md "Multi-Level conditional rendering")
 
    * avoid them for the sake of readability
 
@@ -66,12 +66,12 @@ When to use which type of conditional render?
 
    * use HOC
 
-* HOC
+* [With higher order component](With-higher-order-component.md "With higher order component")
 
    * use them to shield away conditional rendering
 
    * component can focus on their main purpose
 
-* External templating component
+* [External templating component](External-templating-component.md "External templating component")
 
    * avoid them and be comfortable with JSX and JavaScript
