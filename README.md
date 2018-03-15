@@ -34,8 +34,4 @@
 
 * [Promises over Callbacks](pages/Promises-over-callbacks.md "Promises over Callbacks")
 
-<!-- https://www.saltycrane.com/blog/2016/03/es6-features-used-react-development/
-
-https://rangle-io.gitbooks.io/react-training/content/book/es6_constructs/destructuring.html
-
-https://rangle-io.gitbooks.io/react-training/content/book/es6_constructs/template_literals.html -->
+* [Functional stateless component (known as Presentational component)](pages/Functional-stateless-component.md "Functional stateless component (known as Presentational component)")
