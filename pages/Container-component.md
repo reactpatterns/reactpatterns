@@ -1,4 +1,4 @@
-# Container component
+# Container component (known as Stateful component)
 
 A container does data fetching and then renders its corresponding sub-component.
 
