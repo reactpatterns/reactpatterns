@@ -35,3 +35,5 @@
 * [Promises over Callbacks](pages/Promises-over-callbacks.md "Promises over Callbacks")
 
 * [Functional stateless component (known as Presentational component)](pages/Functional-stateless-component.md "Functional stateless component (known as Presentational component)")
+
+* [State hoisting](pages/State-hoisting.md "State hoisting")
