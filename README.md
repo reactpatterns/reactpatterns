@@ -10,8 +10,6 @@
 
 * [Accessing a child component](pages/Accessing-a-child-component.md "Accessing a child component")
 
-* [Container component](pages/Container-component.md "Container component")
-
 * [JSX spread attributes](pages/JSX-spread-attributes.md "JSX spread attributes")
 
 * [Render callback](pages/Render-callback.md "Render callback")
@@ -35,3 +33,5 @@
 * [Promises over Callbacks](pages/Promises-over-callbacks.md "Promises over Callbacks")
 
 * [Functional stateless component (known as Presentational component)](pages/Functional-stateless-component.md "Functional stateless component (known as Presentational component)")
+
+* [Container component](pages/Container-component.md "Container component")
