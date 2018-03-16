@@ -34,4 +34,4 @@
 
 * [Functional stateless component (known as Presentational component)](pages/Functional-stateless-component.md "Functional stateless component (known as Presentational component)")
 
-* [Container component](pages/Container-component.md "Container component")
+* [Container component (known as Stateful component)](pages/Container-component.md "Container component (known as Stateful component)")
