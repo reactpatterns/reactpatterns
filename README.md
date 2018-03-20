@@ -43,3 +43,9 @@
 * [shouldComponentUpdate avoid heavy re-renders](pages/shouldComponentUpdate-avoid-heavy-re-renders.md "shouldComponentUpdate avoid heavy re-renders")
 
 * [Controlled and uncontrolled input](pages/Controlled-and-uncontrolled-input.md "Controlled and uncontrolled input")
+
+## Contributing
+
+We'd love to have your helping hand on react-patterns!
+
+Your contributions are heartily ♡ welcome. (✿◠‿◠)
