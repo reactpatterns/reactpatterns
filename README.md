@@ -44,6 +44,8 @@
 
 * [Controlled and uncontrolled input](pages/Controlled-and-uncontrolled-input.md "Controlled and uncontrolled input")
 
+* [Indexes as a key is an anti-patterns](pages/Indexes-as-a-key-is-an-anti-patterns.md "Indexes as a key is an anti-patterns")
+
 ## Contributing
 
 We'd love to have your helping hand on react-patterns!
