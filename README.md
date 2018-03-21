@@ -46,6 +46,8 @@
 
 * [Indexes as a key is an anti-patterns](pages/Indexes-as-a-key-is-an-anti-patterns.md "Indexes as a key is an anti-patterns")
 
+* [Spreading props on DOM elements is an anti-patterns](pages/Spreading-props-on-DOM-elements-is-an-anti-patterns.md "Spreading props on DOM elements is an anti-patterns")
+
 ## Contributing
 
 We'd love to have your helping hand on react-patterns!
