@@ -50,6 +50,6 @@
 
 ## Contributing
 
-We'd love to have your helping hand on react-patterns!
+We'd love to have your helping hand on contributions to the project by forking and sending a pull request!
 
-Your contributions are heartily ♡ welcome. (✿◠‿◠)
+Your contributions are heartily ♡ welcome, recognized and appreciated. (✿◠‿◠)
