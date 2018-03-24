@@ -48,6 +48,8 @@
 
 * [Spreading props on DOM elements is an anti-patterns](pages/Spreading-props-on-DOM-elements-is-an-anti-patterns.md "Spreading props on DOM elements is an anti-patterns")
 
+* [PureComponent avoid heavy re-renders](pages/PureComponent-avoid-heavy-re-renders.md "PureComponent avoid heavy re-renders")
+
 ## Contributing
 
 We'd love to have your helping hand on contributions to the project by forking and sending a pull request!
