@@ -1,6 +1,6 @@
 # React Patterns
 
-Please star this project to keep tracking and be easy to find the project again later!
+### Contents
 
 * [Async initialization in componentDidMount()](pages/Async-initialization-in-componentDidMount.md "Async initialization in componentDidMount()")
 
@@ -52,7 +52,7 @@ Please star this project to keep tracking and be easy to find the project again 
 
 * [PureComponent avoid heavy re-renders](pages/PureComponent-avoid-heavy-re-renders.md "PureComponent avoid heavy re-renders")
 
-## Contributing
+### Contributing
 
 We'd love to have your helping hand on contributions to the project by forking and sending a pull request!
 
