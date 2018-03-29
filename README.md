@@ -1,5 +1,7 @@
 # React Patterns
 
+Please star this project to keep tracking and be easy to find the project again later!
+
 * [Async initialization in componentDidMount()](pages/Async-initialization-in-componentDidMount.md "Async initialization in componentDidMount()")
 
 * [Functional setState (Pass a function to setState)](pages/Functional-setState-(Pass-a-function-to-setState).md "Functional setState (Pass a function to setState)")
