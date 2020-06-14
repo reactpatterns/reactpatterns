@@ -1,6 +1,14 @@
 # React Patterns
 
-### Table of Contents
+React patterns & techniques to use in development for React Developer.
+
+To get the latest React patterns follow/star/like us on:
+
+* Twitter: [@reactjspatterns](https://twitter.com/reactjspatterns)
+* Github: [reactpatterns](https://github.com/reactpatterns/reactpatterns)
+* Facebook [reactjspatterns](https://www.facebook.com/ReactJSPatterns)
+
+### 📄 Table of Contents
 
 * [Async initialization in componentDidMount()](pages/Async-initialization-in-componentDidMount.md "Async initialization in componentDidMount()")
 
@@ -52,8 +60,19 @@
 
 * [PureComponent avoid heavy re-renders](pages/PureComponent-avoid-heavy-re-renders.md "PureComponent avoid heavy re-renders")
 
-### Contributing
+### 🌟 Contributing
 
-We'd love to have your helping hand on contributions to the project by forking and sending a pull request!
+We'd love to have your helping hand on contributions to `reactpatterns` by forking and sending a pull request!
 
 Your contributions are heartily ♡ welcome, recognized and appreciated. (✿◠‿◠)
+
+How to contribute:
+
+- Open pull request with improvements
+- Discuss ideas in issues
+- Spread the word
+- Reach out with any feedback
+
+## ⚖️ License
+
+The MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
