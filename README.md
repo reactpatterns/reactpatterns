@@ -64,6 +64,6 @@ We'd love to have your helping hand on contributions to `reactpatterns` by forki
 
 Your contributions are heartily ♡ welcome, recognized and appreciated. (✿◠‿◠)
 
-## ⚖️ License
+## License
 
 The MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
