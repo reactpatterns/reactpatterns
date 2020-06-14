@@ -1,8 +1,12 @@
+<img src="https://github.com/codefacebook/react-patterns/blob/master/images/reactpatterns.png" align="right" />
+
 # React Patterns
+
+> A curated list of React Patterns
 
 React patterns & techniques to use in development for React Developer.
 
-### 📄 Table of Contents
+## Patterns
 
 * [Async initialization in componentDidMount()](pages/Async-initialization-in-componentDidMount.md "Async initialization in componentDidMount()")
 
@@ -54,18 +58,11 @@ React patterns & techniques to use in development for React Developer.
 
 * [PureComponent avoid heavy re-renders](pages/PureComponent-avoid-heavy-re-renders.md "PureComponent avoid heavy re-renders")
 
-### 🌟 Contributing
+## Contributing
 
 We'd love to have your helping hand on contributions to `reactpatterns` by forking and sending a pull request!
 
 Your contributions are heartily ♡ welcome, recognized and appreciated. (✿◠‿◠)
-
-How to contribute:
-
-- Open pull request with improvements
-- Discuss ideas in issues
-- Spread the word
-- Reach out with any feedback
 
 ## ⚖️ License
 
