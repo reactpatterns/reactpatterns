@@ -2,12 +2,6 @@
 
 React patterns & techniques to use in development for React Developer.
 
-To get the latest React patterns follow/star/like us on:
-
-* Twitter: [@reactjspatterns](https://twitter.com/reactjspatterns)
-* Github: [reactpatterns](https://github.com/reactpatterns/reactpatterns)
-* Facebook [reactjspatterns](https://www.facebook.com/ReactJSPatterns)
-
 ### 📄 Table of Contents
 
 * [Async initialization in componentDidMount()](pages/Async-initialization-in-componentDidMount.md "Async initialization in componentDidMount()")
