@@ -12,7 +12,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Higher-order component](pages/Higher-order-component.md "Higher Order Component")
 
-* [Accessing a child component](pages/Accessing-a-child-component.md "Accessing a child component")
+* [Accessing a Child Component](pages/accessing-a-child-component.md "Accessing a child component")
 
 * [JSX spread attributes](pages/JSX-spread-attributes.md "JSX spread attributes")
 
