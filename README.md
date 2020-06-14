@@ -46,17 +46,19 @@ React patterns & techniques to use in development for React Developer.
 
 * [State hoisting](pages/State-hoisting.md "State hoisting")
 
-* [Props in Initial State is an Anti-Patterns](pages/Props-in-initial-state-is-an-anti-patterns.md "Props in Initial State is an Anti-Patterns")
-
 * [shouldComponentUpdate avoid heavy re-renders](pages/shouldComponentUpdate-avoid-heavy-re-renders.md "shouldComponentUpdate avoid heavy re-renders")
 
 * [Controlled and uncontrolled input](pages/Controlled-and-uncontrolled-input.md "Controlled and uncontrolled input")
 
+* [PureComponent avoid heavy re-renders](pages/PureComponent-avoid-heavy-re-renders.md "PureComponent avoid heavy re-renders")
+
+## Anti Patterns
+
+* [Props in Initial State is an Anti-Patterns](pages/Props-in-initial-state-is-an-anti-patterns.md "Props in Initial State is an Anti-Patterns")
+
 * [Indexes as a key is an anti-patterns](pages/Indexes-as-a-key-is-an-anti-patterns.md "Indexes as a key is an anti-patterns")
 
 * [Spreading props on DOM elements is an anti-patterns](pages/Spreading-props-on-DOM-elements-is-an-anti-patterns.md "Spreading props on DOM elements is an anti-patterns")
-
-* [PureComponent avoid heavy re-renders](pages/PureComponent-avoid-heavy-re-renders.md "PureComponent avoid heavy re-renders")
 
 ## Contributing
 
