@@ -8,7 +8,7 @@ React patterns & techniques to use in development for React Developer.
 
 ## Patterns
 
-* [Async initialization in componentDidMount()](pages/Async-initialization-in-componentDidMount.md "Async initialization in componentDidMount()")
+* [Async initialization in componentDidMount()](pages/asynchronous-initialization-in-componentdidmount.md "Asynchronous initialization in componentDidMount()")
 
 * [Functional setState (Pass a function to setState)](pages/Functional-setState-(Pass-a-function-to-setState).md "Functional setState (Pass a function to setState)")
 
