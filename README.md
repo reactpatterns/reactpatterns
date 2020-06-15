@@ -1,4 +1,4 @@
-<img src="https://github.com/codefacebook/react-patterns/blob/master/images/reactpatterns.png" align="right" />
+<img src="https://github.com/codefacebook/react-patterns/blob/master/static/images/reactpatterns.png" align="right" />
 
 # React Patterns
 

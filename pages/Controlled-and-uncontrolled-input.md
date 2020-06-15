@@ -77,7 +77,7 @@ class Form extends Component {
 
 Whenever you type a new character, `handleNameChange` is called. It takes in the new value of the input and sets it in the state.
 
-![Controlled input](https://github.com/codefacebook/react-patterns/blob/master/images/controlled-input-flow.png "Controlled input")
+![Controlled input](https://github.com/codefacebook/react-patterns/blob/master/static/images/controlled-input-flow.png "Controlled input")
 
 - It starts as an empty string ''.
 
