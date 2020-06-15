@@ -1,4 +1,4 @@
-# Asynchronous initialization in componentDidMount()
+# Asynchronous Initialization in componentDidMount()
 
 You should avoid async initialization in `componentWillMount()`.
 
