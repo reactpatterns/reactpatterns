@@ -12,7 +12,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Functional setState (Pass a function to setState)](pages/functional-setstate.md "Functional setState (Pass a function to setState)")
 
-* [Higher-order function](pages/Higher-order-function.md "Higher order function")
+* [Higher Order Functions](pages/higher-order-functions.md "Higher Order Functions")
 
 * [Higher-order component](pages/Higher-order-component.md "Higher Order Component")
 
