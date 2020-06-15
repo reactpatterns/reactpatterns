@@ -10,7 +10,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Async Initialization in componentDidMount()](pages/asynchronous-initialization-in-componentdidmount.md "Asynchronous initialization in componentDidMount()")
 
-* [Functional setState (Pass a function to setState)](pages/Functional-setState-(Pass-a-function-to-setState).md "Functional setState (Pass a function to setState)")
+* [Functional setState (Pass a function to setState)](pages/functional-setstate.md "Functional setState (Pass a function to setState)")
 
 * [Higher-order function](pages/Higher-order-function.md "Higher order function")
 
