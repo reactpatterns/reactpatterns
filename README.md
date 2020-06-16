@@ -12,6 +12,8 @@ React patterns & techniques to use in development for React Developer.
 
 * [Make the API Call in componentDidMount()](pages/make-the-api-call-in-componentdidmount.md "Make the API Call in componentDidMount()")
 
+* [Stateless function (Presentational Component)](pages/stateless-function.md "Stateless function (Presentational Component)")
+
 * [Functional setState (Pass a function to setState)](pages/functional-setstate.md "Functional setState (Pass a function to setState)")
 
 * [Higher Order Functions](pages/higher-order-functions.md "Higher Order Functions")
@@ -42,8 +44,6 @@ React patterns & techniques to use in development for React Developer.
 
 * [Promises over Callbacks](pages/Promises-over-callbacks.md "Promises over Callbacks")
 
-* [Functional stateless component (known as Presentational component)](pages/Functional-stateless-component.md "Functional stateless component (known as Presentational component)")
-
 * [Container component (known as Stateful component)](pages/Container-component.md "Container component (known as Stateful component)")
 
 * [State hoisting](pages/State-hoisting.md "State hoisting")
@@ -56,11 +56,13 @@ React patterns & techniques to use in development for React Developer.
 
 ## Anti Patterns
 
-* [Props in Initial State is an Anti-Patterns](pages/Props-in-initial-state-is-an-anti-patterns.md "Props in Initial State is an Anti-Patterns")
+* [Initializing the state Using props is an Anti-Patterns](pages/Props-in-initial-state-is-an-anti-patterns.md "Props in Initial State is an Anti-Patterns")
 
-* [Indexes as a key is an anti-patterns](pages/Indexes-as-a-key-is-an-anti-patterns.md "Indexes as a key is an anti-patterns")
+* [Using Indexes as a Key is an anti-patterns](pages/Indexes-as-a-key-is-an-anti-patterns.md "Indexes as a key is an anti-patterns")
 
 * [Spreading props on DOM elements is an anti-patterns](pages/Spreading-props-on-DOM-elements-is-an-anti-patterns.md "Spreading props on DOM elements is an anti-patterns")
+
+* Mutating the state
 
 ## Contributing
 
