@@ -2,6 +2,8 @@
 
 A proxy component is a placeholder component that can be rendered to or from another component. In short a proxy component is a reusable component.
 
+Example:
+
 ```js
 import React from 'react'
 
