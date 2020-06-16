@@ -8,6 +8,8 @@ React patterns & techniques to use in development for React Developer.
 
 ## Patterns
 
+* [Proxy Component](pages/proxy-componentt.md "Proxy Component")
+
 * [Make the API Call in componentDidMount()](pages/make-the-api-call-in-componentdidmount.md "Make the API Call in componentDidMount()")
 
 * [Functional setState (Pass a function to setState)](pages/functional-setstate.md "Functional setState (Pass a function to setState)")
