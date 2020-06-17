@@ -1,4 +1,6 @@
-⭐️ If you like reactpatterns, give it a star! ⭐️
+<p align="center">
+  ⭐️ If you like reactpatterns, give it a star! ⭐️
+</p>
 
 <img src="https://github.com/codefacebook/react-patterns/blob/master/static/images/reactpatterns.png" align="right" />
 
