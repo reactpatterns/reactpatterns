@@ -1,3 +1,5 @@
+⭐️ If you like reactpatterns, give it a star! ⭐️
+
 <img src="https://github.com/codefacebook/react-patterns/blob/master/static/images/reactpatterns.png" align="right" />
 
 # React Patterns
@@ -18,7 +20,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Higher-Order Functions](pages/higher-order-functions.md "Higher-Order Functions")
 
-* [Higher-order component](pages/Higher-order-component.md "Higher Order Component")
+* [Higher-Order Components](pages/higher-order-components.md "Higher-Order Components")
 
 * [Accessing a Child Component](pages/accessing-a-child-component.md "Accessing a child component")
 
