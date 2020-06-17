@@ -1,22 +1,56 @@
 # Higher Order Functions
 
-What is Higher Order Functions?
+Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
 
-1. A higher order function is a function that takes a function as an argument, or returns a function.
-
-2. Higher order function is in contrast to first order functions, which don’t take a function as an argument or return a function as output.
-
-The below given function can be termed as a Higher Order Function.
+We can have functions that create new functions:
 
 ```js
-// Getting a Specific Getter from Generic get
-function get(prop){
-  return function(obj){
-    return obj[prop]
-  }
+function greaterThan(n) {
+  return m => m > n
 }
 
-const getName = get("name")
-const name = getName({"name": "Jonh"})
-console.log(name)
+let greaterThan10 = greaterThan(10)
+
+console.log(greaterThan10(11))
+// true
+```
+
+We can have functions that change other functions:
+
+```js
+function noisy(f) {
+  return (...args) => {
+    console.log("calling with", args)
+    let result = f(...args)
+    console.log("called with", args, ", returned", result)
+    return result
+  }
+}
+noisy(Math.min)(3, 2, 1);
+// calling with [3, 2, 1]
+// called with [3, 2, 1] , returned 1
+```
+
+We can even write functions that provide new types of control flow:
+
+```js
+function unless(test, then) {
+  if (!test) then()
+}
+
+repeat(3, n => {
+  unless(n % 2 == 1, () => {
+    console.log(n, "is even")
+  })
+})
+// 0 is even
+// 2 is even
+```
+
+There is a built-in array method, forEach, that provides something like a for/of loop as a higher-order function:
+
+```js
+["A", "B"].forEach(l => console.log(l));
+// A
+// B
 ```
