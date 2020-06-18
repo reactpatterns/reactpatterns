@@ -1,37 +1,47 @@
 ## Accessing a Child Component
 
-Accessing a child component from the parent. For instance, autofocus an input (controlled by parent component).
+React provide a way to access to a child's DOM node from a parent component by using `Refs`.
 
-Assume that you have a sign-in form, you want to put the cursor in the user name fields once page render.
+Example:
 
-Let take a look the child component:
+Assume that you want to put the cursor in the user name fields when the page render.
+
+In child component, we create `Refs` by using `React.createRef()` and then attached to React elements via the `ref` attribute. 
 
 ```js
-class Input extends Component {
+import React from 'react'
+
+class Input extends React.Component {
+  constructor(props) {
+    super(props)
+    // create a ref to store the textInput DOM element
+    this.textInput = React.createRef()
+  }
+
   focus() {
-    this.el.focus();
+    // EXPLANATION: a reference to the node becomes accessible at the current attribute of the ref.
+    // make the DOM node focus
+    this.textInput.current.focus();
   }
   
   render() {
     return (
       <input
-        ref={el=> { this.el = el; }}
+        type="text"
+        ref={this.textInput}
       />
-    );
+    )
   }
 }
 ```
 
-An Input component with a `focus()` method that focuses the HTML element.
-
 In the parent component, we can get a reference to the Input component and call its `focus()` method.
 
 ```js
-class SignInModal extends Component {
+class SignInModal extends React.Component {
   componentDidMount() {
-    // Note that when you use ref on a component, it's a reference to 
+    // NOTE: when you use ref on a component, it's a reference to 
     // the component (not the underlying element), so you have access to its methods.
-    
     this.InputComponent.focus();
   }
   
@@ -39,7 +49,8 @@ class SignInModal extends Component {
     return (
       <div>
         <label>User name: </label>
-        <Input ref={comp => { this.InputComponent = comp; }} />
+        {/* we use "callback refs" to get the React component instance */}
+        <Input ref={component => {this.InputComponent = component }} />
       </div>
     )
   }

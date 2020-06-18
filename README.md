@@ -24,7 +24,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Higher-Order Components](pages/higher-order-components.md "Higher-Order Components")
 
-* [Accessing a Child Component](pages/accessing-a-child-component.md "Accessing a child component")
+* [Accessing a Child Component](pages/accessing-a-child-component.md "Accessing a Child Component")
 
 * [JSX spread attributes](pages/JSX-spread-attributes.md "JSX spread attributes")
 
@@ -77,3 +77,10 @@ Your contributions are heartily ♡ welcome, recognized and appreciated. (✿◠
 ## License
 
 The MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+<!-- =============== -->
+<!-- 
+callback-ref => https://reactjs.org/docs/refs-and-the-dom.html#callback-refs 
+-->
+<!-- =============== -->
