@@ -1,4 +1,4 @@
-## Accessing a Child Component
+# Accessing a Child Component
 
 React provide a way to access to a child's DOM node from a parent component by using `Refs`.
 
