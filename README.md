@@ -26,7 +26,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Accessing a Child Component](pages/accessing-a-child-component.md "Accessing a Child Component")
 
-* [JSX spread attributes](pages/JSX-spread-attributes.md "JSX spread attributes")
+* [JSX Spread Attributes](pages/jsx-spread-attributes.md "JSX Spread Attributes")
 
 * [Render callback](pages/Render-callback.md "Render callback")
 
