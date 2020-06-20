@@ -59,4 +59,4 @@ And then you could use it as.
 
 As you can see above, children is "overloaded" and passed to `PageWidth` as a function instead of being a `ReactNodeList` as nature intended. The `PageWidth` component's render method calls `this.props.children` (passing it width), which returns rendered JSX.
 
-The real power of [render callbacks](/render-callback.md) can be seen in this example. `PageWidth` will do all of the heavy lifting, while exactly what is rendered can change, depending on the render function that is passed.
+The real power of [render callbacks](render-callback.md) can be seen in this example. `PageWidth` will do all of the heavy lifting, while exactly what is rendered can change, depending on the render function that is passed.
