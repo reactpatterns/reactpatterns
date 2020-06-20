@@ -30,7 +30,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Render Callback](pages/render-callback.md "Render Callback")
 
-* [Function as child component](pages/Function-as-child-component.md "Function as child component")
+* [Function as Child Component](pages/function-as-child-component.md "Function as Child Component")
 
 * [Function as prop component](pages/Function-as-prop-component.md "Function as prop component")
 
