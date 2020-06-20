@@ -32,7 +32,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Function as Child Component](pages/function-as-child-component.md "Function as Child Component")
 
-* [Function as prop component](pages/Function-as-prop-component.md "Function as prop component")
+* [Function as Prop Component](pages/function-as-prop-component.md "Function as Prop Component")
 
 * [Component injection](pages/Component-injection.md "Component injection")
 
