@@ -28,7 +28,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [JSX Spread Attributes](pages/jsx-spread-attributes.md "JSX Spread Attributes")
 
-* [Render callback](pages/Render-callback.md "Render callback")
+* [Render Callback](pages/render-callback.md "Render Callback")
 
 * [Function as child component](pages/Function-as-child-component.md "Function as child component")
 
