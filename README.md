@@ -16,7 +16,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Make the API Call in componentDidMount()](pages/make-the-api-call-in-componentdidmount.md "Make the API Call in componentDidMount()")
 
-* [Stateless function (Presentational Component)](pages/stateless-function.md "Stateless function (Presentational Component)")
+* [Stateless Function (Presentational Component)](pages/stateless-function.md "Stateless Function (Presentational Component)")
 
 * [Functional setState (Pass a function to setState)](pages/functional-setstate.md "Functional setState (Pass a function to setState)")
 

@@ -1,4 +1,4 @@
-# Stateless function (Presentational Component)
+# Stateless Function (Presentational Component)
 
 * Stateless function is a way to define React components as a function. Rather than as a class or via `React.createClass`.
 * Stateless function does not hold state; just props.
