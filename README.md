@@ -34,7 +34,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Function as Prop Component](pages/function-as-prop-component.md "Function as Prop Component")
 
-* [Component Injection](pages/Component-Injection.md "Component Injection")
+* [Component Injection](pages/component-injection.md "Component Injection")
 
 * [Conditional rendering](pages/Conditional-rendering.md "Conditional rendering")
 
