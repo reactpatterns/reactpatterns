@@ -1,6 +1,6 @@
 # Functional setState (Pass a function to setState)
 
-React has popularized functional programming in JavaScript. So today I reveal to you a new functional gold in React is ***Functional setState***.
+React has popularized functional programming in JavaScript. So today I reveal to you a new functional gold in React is  ***Functional setState***.
 
 Assume that you have a User component as below:
 
