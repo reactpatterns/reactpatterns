@@ -36,7 +36,13 @@ React patterns & techniques to use in development for React Developer.
 
 * [Component Injection](pages/component-injection.md "Component Injection")
 
-* [Conditional rendering](pages/Conditional-rendering.md "Conditional rendering")
+<!-- * [Conditional rendering](pages/conditional-rendering.md "Conditional rendering") -->
+
+* Conditional Rendering
+  * [if else](pages/if-else.md "if else")
+    * is the most basic conditional rendering
+    * beginner friendly
+    * use if to opt-out early from a render method by returning null
 
 * [Destructuring](pages/Destructuring.md "Destructuring")
 
@@ -82,5 +88,8 @@ The MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow
 <!-- =============== -->
 <!-- 
 callback-ref => https://reactjs.org/docs/refs-and-the-dom.html#callback-refs 
+
+functional-setstate
+
 -->
 <!-- =============== -->
