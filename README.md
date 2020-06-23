@@ -43,27 +43,27 @@ React patterns & techniques to use in development for React Developer.
     * is the most basic conditional rendering
     * beginner friendly
     * use if to opt-out early from a render method by returning null
-  * [ternary operation](ternary-operation.md "ternary operation")
+  * [ternary operation](pages/ternary-operation.md "ternary operation")
     * use it over an if-else statement
     * it is more concise than if-else
-  * [logical && operator](logical-and-operator.md "logical && operator")
+  * [logical && operator](pages/logical-and-operator.md "logical && operator")
     * use it when one side of the ternary operation would return null
     * but be careful that you don’t run into bugs when using multiple conditions
-  * [switch case operator](switch-case-operator.md "switch case operator")
+  * [switch case operator](pages/switch-case-operator.md "switch case operator")
     * verbose
     * can only be inlined with self invoking function
     * avoid it, use enums instead
-  * [conditional rendering with enum](conditional-rendering-with-enum.md "conditional rendering with enum")
+  * [conditional rendering with enum](pages/conditional-rendering-with-enum.md "conditional rendering with enum")
     * perfect to map different states
     * perfect to map more than one condition
-  * [multi-level conditional rendering](multi-level-conditional-rendering.md "multi-level conditional rendering")
+  * [multi-level conditional rendering](pages/multi-level-conditional-rendering.md "multi-level conditional rendering")
     * avoid them for the sake of readability
     * split up components into more lightweight components with their own simple conditional rendering
     * use HOC
-  * [with higher order component](with-higher-order-component.md "with higher order component")
+  * [with higher order component](pages/with-higher-order-component.md "with higher order component")
     * use them to shield away conditional rendering
     * component can focus on their main purpose
-  * [external templating component](external-templating-component.md "external templating component")
+  * [external templating component](pages/external-templating-component.md "external templating component")
     * avoid them and be comfortable with JSX and JavaScript
 
 * [Destructuring](pages/Destructuring.md "Destructuring")
