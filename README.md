@@ -54,7 +54,7 @@ React patterns & techniques to use in development for React Developer.
   * [Nested Destructuring](pages/nested-destructuring.md "Nested Destructuring")
   * [Destructuring Rest/Spread Operator](pages/destructuring-rest-and-spread-operator.md "Destructuring Rest/Spread Operator")
 
-* [Promises over Callbacks](pages/Promises-over-callbacks.md "Promises over Callbacks")
+* [Promises Over Callbacks](pages/promises-over-callbacks.md "Promises Over Callbacks")
 
 * [Container component (known as Stateful component)](pages/Container-component.md "Container component (known as Stateful component)")
 
