@@ -1,24 +1,24 @@
-# Controlled and uncontrolled input
+# Controlled and Uncontrolled Input
 
-### Uncontrolled input
+### Uncontrolled Input
 
 Uncontrolled input is like traditional HTML form input:
 
-```
+```js
 class Form extends Component {
   render() {
     return (
       <div>
         <input type="text" />
       </div>
-    );
+    )
   }
 }
 ```
 
 They remember what you typed. You can get their value using a `ref`. For example, in onClick handler of a button:
 
-```
+```js
 class Form extends Component {
   handleSubmitClick = () => {
     const name = this._name.value;
@@ -42,13 +42,13 @@ That is the simplest way to implement the form inputs. It’s not as powerful, t
 
 A controlled input accepts its current value as a prop, as well as a callback to change that value. You could say it’s a "React way".
 
-```
+```js
 <input value={someValue} onChange={handleChange} />
 ```
 
 The value of the input has to live in the state somewhere, the component that renders the input (the form component) saves that in its state:
 
-```
+```js
 class Form extends Component {
   constructor() {
     super();
@@ -88,8 +88,6 @@ Whenever you type a new character, `handleNameChange` is called. It takes in the
 Well, This flow kind of pushes the value changes to the form component, so the form component always has the current value of the input, without needing to ask for it.
 
 It means that your data (state) and UI (inputs) are always in sync. The state gives the value to the input, and the input asks the form to change the current value.
-
-***
 
 ### Addition
 

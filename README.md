@@ -62,7 +62,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [shouldComponentUpdate Avoid Heavy re-renders](pages/shouldcomponentupdate-avoid-heavy-re-renders.md "shouldComponentUpdate Avoid Heavy re-renders")
 
-* [Controlled and uncontrolled input](pages/Controlled-and-uncontrolled-input.md "Controlled and uncontrolled input")
+* [Controlled and Uncontrolled Input](pages/controlled-and-uncontrolled-input.md "Controlled and Uncontrolled Input")
 
 * [PureComponent avoid heavy re-renders](pages/PureComponent-avoid-heavy-re-renders.md "PureComponent avoid heavy re-renders")
 
