@@ -56,7 +56,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Promises Over Callbacks](pages/promises-over-callbacks.md "Promises Over Callbacks")
 
-* [Container component (known as Stateful component)](pages/Container-component.md "Container component (known as Stateful component)")
+* [Stateful Component (Container Component)](pages/container-component.md "Stateful Component (Container Component)")
 
 * [State hoisting](pages/State-hoisting.md "State hoisting")
 
