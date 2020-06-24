@@ -64,7 +64,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Controlled and Uncontrolled Input](pages/controlled-and-uncontrolled-input.md "Controlled and Uncontrolled Input")
 
-* [PureComponent avoid heavy re-renders](pages/PureComponent-avoid-heavy-re-renders.md "PureComponent avoid heavy re-renders")
+* [PureComponent Avoid Heavy re-renders](pages/purecomponent-avoid-heavy-re-renders.md "PureComponent Avoid Heavy re-renders")
 
 ## Anti Patterns
 
