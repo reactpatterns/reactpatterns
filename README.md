@@ -58,7 +58,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Stateful Component (Container Component)](pages/container-component.md "Stateful Component (Container Component)")
 
-* [State hoisting](pages/State-hoisting.md "State hoisting")
+* [State Hoisting](pages/state-hoisting.md "State Hoisting")
 
 * [shouldComponentUpdate avoid heavy re-renders](pages/shouldComponentUpdate-avoid-heavy-re-renders.md "shouldComponentUpdate avoid heavy re-renders")
 
