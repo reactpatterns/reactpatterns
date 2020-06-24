@@ -1,10 +1,10 @@
-# Indexes as a key is an anti-patterns
+# Indexes as a Key
 
 Keys should be unique so that React can keep a better track of elements.
 
 Assume you use index of an item as its key when render a list as below:
 
-```
+```js
 {todos.map((todo, index) =>
   <Todo
     {...todo}
@@ -17,9 +17,9 @@ A key is the only thing React uses to identify DOM elements. What going on if yo
 
 The better way:
 
-Each items should have a permanent and unique property. It should be assigned when the item is created. Then we can use it the following way.
+Each items should have a permanent and unique property. It should be assigned when the item is created. Then we can use it the following way:
 
-```
+```js
 {todos.map((todo) =>
   <Todo 
     {...todo}
