@@ -1,11 +1,11 @@
-# Multi-level conditional rendering
+# Multi Level Conditional Rendering
 
-What about nested conditional renderings? Let’s have a look at the List component that can either show a list, an empty text or nothing.
+What about nested conditional renderings? Let's have a look at the List component that can either show a list, an empty text or nothing.
 
-```
+```js
 function List({ list }) {
-  const isNull = !list;
-  const isEmpty = !isNull && !list.length;
+  const isNull = !list
+  const isEmpty = !isNull && !list.length
 
   return (
     <div>
@@ -17,7 +17,7 @@ function List({ list }) {
             )
       }
     </div>
-  );
+  )
 }
 
 // usage
@@ -28,9 +28,9 @@ function List({ list }) {
 
 It works. However I would recommend to keep the nested conditional renderings to a minimum. It makes it less readable. My recommendation would be to split it up into smaller components which themselves have conditional renderings.
 
-```
+```js
 function List({ list }) {
-  const isList = list && list.length;
+  const isList = list && list.length
 
   return (
     <div>
@@ -39,10 +39,10 @@ function List({ list }) {
           : <NoList isNull={!list} isEmpty={list && !list.length} />
       }
     </div>
-  );
+  )
 }
 
 function NoList({ isNull, isEmpty }) {
-  return (!isNull && isEmpty) && <p>Sorry, the list is empty.</p>;
+  return (!isNull && isEmpty) && <p>Sorry, the list is empty.</p>
 }
 ```
