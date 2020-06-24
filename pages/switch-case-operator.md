@@ -1,18 +1,20 @@
-# Switch case operator
+# Switch Case Operator
 
-Now there might be cases where you have multiple conditional renderings. The conditional rendering could apply based on different states. Let’s imagine a notification component that can render an error, warning or info component based on the input state. You can use a switch case operator to handle the conditional rendering of these multiple states.
+Now there might be cases where you have multiple conditional renderings. The conditional rendering could apply based on different states.
 
-```
+Let's imagine a notification component that can render an error, warning or info component based on the input state. You can use a switch case operator to handle the conditional rendering of these multiple states.
+
+```js
 function Notification({ text, state }) {
   switch(state) {
     case 'info':
-      return <Info text={text} />;
+      return <Info text={text} />
     case 'warning':
-      return <Warning text={text} />;
+      return <Warning text={text} />
     case 'error':
-      return <Error text={text} />;
+      return <Error text={text} />
     default:
-      return null;
+      return null
   }
 }
 ```
@@ -21,17 +23,17 @@ Please note that you always have to use the `default` for the switch case operat
 
 As a little information​ - When a component has a conditional rendering based on a state, it makes sense to describe the interface of the component with `React.PropTypes`.
 
-```
+```js
 function Notification({ text, state }) {
   switch(state) {
     case 'info':
-      return <Info text={text} />;
+      return <Info text={text} />
     case 'warning':
-      return <Warning text={text} />;
+      return <Warning text={text} />
     case 'error':
-      return <Error text={text} />;
+      return <Error text={text} />
     default:
-      return null;
+      return null
   }
 }
 
@@ -45,23 +47,23 @@ Now you have one generic component to show different kinds of notifications. Bas
 
 An alternative way would be to inline the switch case. Therefore you would need a self invoking JavaScript function.
 
-```
+```js
 function Notification({ text, state }) {
   return (
     <div>
       {(() => {
         switch(state) {
           case 'info':
-            return <Info text={text} />;
+            return <Info text={text} />
           case 'warning':
-            return <Warning text={text} />;
+            return <Warning text={text} />
           case 'error':
-            return <Error text={text} />;
+            return <Error text={text} />
           default:
-            return null;
+            return null
         }
       })()}
     </div>
-  );
+  )
 }
 ```
