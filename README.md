@@ -68,7 +68,7 @@ React patterns & techniques to use in development for React Developer.
 
 ## Anti Patterns
 
-* [Initializing the state Using props is an Anti-Patterns](pages/Props-in-initial-state-is-an-anti-patterns.md "Props in Initial State is an Anti-Patterns")
+* [Initializing the State Using Props](pages/props-in-initial-state.md "Initializing the State Using Props")
 
 * [Using Indexes as a Key is an anti-patterns](pages/Indexes-as-a-key-is-an-anti-patterns.md "Indexes as a key is an anti-patterns")
 
