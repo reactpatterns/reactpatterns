@@ -1,13 +1,13 @@
-# Nested destructuring
+# Nested Destructuring
 
 Destructuring also applies to objects nested in objects. 
 
 Without destructuring:
 
-```
+```js
 function setIndexFromRoute(props) {
-  const modalList = props.modalList;
-  const pathname = props.location.pathname;
+  const modalList = props.modalList
+  const pathname = props.location.pathname
 
   // ...
 }
@@ -15,9 +15,9 @@ function setIndexFromRoute(props) {
 
 Here is an example destructuring the nested props object:
 
-```
+```js
 function setIndexFromRoute(props) {
-  const { modalList, location: { pathname } } = props;
+  const { modalList, location: { pathname } } = props
 
   // ...
 }
