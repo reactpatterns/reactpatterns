@@ -48,13 +48,11 @@ React patterns & techniques to use in development for React Developer.
   * [With Higher Order Component](pages/with-higher-order-component.md "With Higher Order Component")
   * [External Templating Component](pages/external-templating-component.md "External Templating Component")
 
-* [Destructuring](pages/Destructuring.md "Destructuring")
-
-* [Destructuring function arguments](pages/Destructuring-function-arguments.md "Destructuring function arguments")
-
-* [Nested destructuring](pages/Nested-destructuring.md "Nested destructuring")
-
-* [Destructuring rest/spread operator](pages/Destructuring-rest-and-spread-operator.md "Destructuring rest/spread operator")
+* Destructuring
+  * [Basic Destructuring](pages/destructuring.md "Basic Destructuring")
+  * [Destructuring Function Arguments](pages/destructuring-function-arguments.md "Destructuring Function Arguments")
+  * [Nested Destructuring](pages/nested-destructuring.md "Nested Destructuring")
+  * [Destructuring Rest/Spread Operator](pages/destructuring-rest-and-spread-operator.md "Destructuring Rest/Spread Operator")
 
 * [Promises over Callbacks](pages/Promises-over-callbacks.md "Promises over Callbacks")
 
