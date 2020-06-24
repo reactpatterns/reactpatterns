@@ -1,16 +1,16 @@
-# Ternary operation
+# Ternary Operation
 
-You can make your if-else statement more concise by using a ternary operation.
+You can make your `if-else` statement more concise by using a ternary operation.
 
-```
+```js
 condition ? expr1 : expr2
 ```
 
 Imagine you have a toggle to switch between two modes, edit and view, in your component. The derived condition is a simple boolean. You can use the boolean to decide which element you want to return.
 
-```
+```js
 function Item({ item, mode }) {
-  const isEditMode = mode === 'EDIT';
+  const isEditMode = mode === 'EDIT'
 
   return (
     <div>
@@ -19,15 +19,15 @@ function Item({ item, mode }) {
           : <ItemView item={item} />
       }
     </div>
-  );
+  )
 }
 ```
 
 If your blocks in both branches of the ternary operation are getting bigger, you can use parentheses.
 
-```
+```js
 function Item({ item, mode }) {
-  const isEditMode = mode === 'EDIT';
+  const isEditMode = mode === 'EDIT'
 
   return (
     <div>
@@ -44,4 +44,4 @@ function Item({ item, mode }) {
 }
 ```
 
-The ternary operation makes the conditional rendering in React more concise than the if-else statement. It is simple to inline it in your return statement.
+The ternary operation makes the conditional rendering in React more concise than the `if-else` statement. It is simple to inline it in your return statement.

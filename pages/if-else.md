@@ -1,4 +1,4 @@
-# if else
+# If Else
 
 The easiest way to have a conditional rendering is to use an `if-else` in React in your render method. 
 

@@ -39,14 +39,14 @@ React patterns & techniques to use in development for React Developer.
 <!-- * [Conditional rendering](pages/conditional-rendering.md "Conditional rendering") -->
 
 * Conditional Rendering
-  * [if else](pages/if-else.md "if else")
-  * [ternary operation](pages/ternary-operation.md "ternary operation")
-  * [logical && operator](pages/logical-and-operator.md "logical && operator")
-  * [switch case operator](pages/switch-case-operator.md "switch case operator")
-  * [conditional rendering with enum](pages/conditional-rendering-with-enum.md "conditional rendering with enum")
-  * [multi-level conditional rendering](pages/multi-level-conditional-rendering.md "multi-level conditional rendering")
-  * [with higher order component](pages/with-higher-order-component.md "with higher order component")
-  * [external templating component](pages/external-templating-component.md "external templating component")
+  * [If Else](pages/if-else.md "If Else")
+  * [Ternary Operation](pages/ternary-operation.md "Ternary Operation")
+  * [Logical && Operator](pages/logical-and-operator.md "Logical && Operator")
+  * [Switch Case Operator](pages/switch-case-operator.md "Switch Case Operator")
+  * [Conditional Rendering with Enum](pages/conditional-rendering-with-enum.md "Conditional Rendering with Enum")
+  * [Multi Level Conditional Rendering](pages/multi-level-conditional-rendering.md "Multi Level Conditional Rendering")
+  * [With Higher Order Component](pages/with-higher-order-component.md "With Higher Order Component")
+  * [External Templating Component](pages/external-templating-component.md "External Templating Component")
 
 * [Destructuring](pages/Destructuring.md "Destructuring")
 
