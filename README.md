@@ -72,7 +72,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Using Indexes as a Key](pages/indexes-as-a-key.md "Using Indexes as a Key")
 
-* [Spreading props on DOM elements is an anti-patterns](pages/Spreading-props-on-DOM-elements-is-an-anti-patterns.md "Spreading props on DOM elements is an anti-patterns")
+* [Spreading Props on DOM Elements](pages/spreading-props-on-dom-elements.md "Spreading Props on DOM Elements")
 
 * Mutating the state
 
