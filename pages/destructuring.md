@@ -6,25 +6,25 @@ Destructuring works with nested objects, with arrays, and can be used in variabl
 
 Without destructuring:
 
-```
+```js
 class Modals extends Component {
   render() {
-    const modalList = this.props.modalList;
-    const currIndex = this.state.currIndex;
-    const showModal = this.state.showModal;
+    const modalList = this.props.modalList
+    const currIndex = this.state.currIndex
+    const showModal = this.state.showModal
 
     // ...
   }
 }
 ```
 
-Destructuring the objects this.props and this.state:
+Destructuring the objects `this.props` and `this.state`:
 
-```
+```js
 class ChainedModals extends Component {
   render() {
-    const { modalList } = this.props;
-    const { currIndex, showModal } = this.state;
+    const { modalList } = this.props
+    const { currIndex, showModal } = this.state
     
     // ...
   }
