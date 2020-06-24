@@ -60,7 +60,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [State Hoisting](pages/state-hoisting.md "State Hoisting")
 
-* [shouldComponentUpdate avoid heavy re-renders](pages/shouldComponentUpdate-avoid-heavy-re-renders.md "shouldComponentUpdate avoid heavy re-renders")
+* [shouldComponentUpdate Avoid Heavy re-renders](pages/shouldcomponentupdate-avoid-heavy-re-renders.md "shouldComponentUpdate Avoid Heavy re-renders")
 
 * [Controlled and uncontrolled input](pages/Controlled-and-uncontrolled-input.md "Controlled and uncontrolled input")
 
