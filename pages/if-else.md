@@ -2,9 +2,7 @@
 
 The easiest way to have a conditional rendering is to use an `if-else` in React in your render method. 
 
-Imagine you don't want to render your component, because it doesn't have the necessary props.
-
-For instance, a List component shouldn't render the list when there is no list of items. You can use an if statement to return earlier from the render lifecycle.
+Imagine you don't want to render your component, because it doesn't have the necessary props. For instance, a List component shouldn't render the list when there is no list of items. You can use an if statement to return earlier from the render lifecycle.
 
 ```js
 function List({ list }) {
