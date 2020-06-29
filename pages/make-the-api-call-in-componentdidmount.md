@@ -23,7 +23,7 @@ useEffect(() => {
     .then(result => {
       const sms = result.data
       console.log("COMPONENT WILL Mount messages : ", sms);
-      this.setState({sms: [...sms.content]})
+      setState({sms: [...sms.content]})
     })
 }, [])
 ```
