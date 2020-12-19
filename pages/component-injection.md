@@ -1,34 +1,36 @@
 # Component Injection
 
+## What is Component Injection?
+
 Passing (or inject) a component into another component it's called Component Injection.
 
-Example 1:
+## Example 1
 
-```js
+```jsx
 const Hello = ({ name }) => {
   return <div>`hello from ${name}`</div>
 };
 ```
 
-```js
+```jsx
 <Foo Hello={Hello} />
 ```
 
-It look pretty much the same as in the [Function as Prop Component](./function-as-prop-component.md "Function as Prop Component"), except the prop we capitalize `Hello` because convention calls for us to capitalize the first letter of a component name. We also pass in `props`, an object, instead of a single string parameter, those are the only differences.
+It look pretty much the same as in the [function as prop component](/docs/function-as-prop-component "function as prop component"), except the prop we capitalize `Hello` because convention calls for us to capitalize the first letter of a component name. We also pass in `props`, an object, instead of a single string parameter, those are the only differences.
 
-And `Foo` component will looks a lot more like a traditional React component:
+And `Foo` component will looks a lot more like a traditional React component.
 
-```js
+```jsx
 const Foo = ({ Hello }) => {
   return <Hello name="foo" />
 };
 ```
 
-Example 2:
+## Example 2
 
-Let's take a look at a advanced example, altered for Component Injection:
+Let's take a look at a advanced example, altered for component injection.
 
-```js
+```jsx
 import React from 'react'
 
 export default class PageWidth extends React.Component {
@@ -43,13 +45,13 @@ export default class PageWidth extends React.Component {
 }
 ```
 
-Ss well as how you use it.
+So well as how you use it.
 
-```js
+```jsx
 <PageWidth Width={DisplayPageWidthText} />
 ```
 
-```js
+```jsx
 const DisplayWindowWidthText = ({ width }) => {
   return <div>window is {width}</div>
 };
@@ -57,13 +59,13 @@ const DisplayWindowWidthText = ({ width }) => {
 
 As you can see, the `DisplayPageWidthText` component is "injected" into `PageWidth` as a prop named `Width`.
 
-You could even pass a different component and get a completely different rendered output, thanks to the power of [Render Callback](./render-callback.md "Render Callback"):
+You could even pass a different component and get a completely different rendered output, thanks to the power of [render callback](/docs/render-callback "render callback").
 
-```js
+```jsx
 <PageWidth Width={DisplayDevice} />
 ```
 
-```js
+```jsx
 const DisplayDevice = ({ width }) => {
   let device = null
   if (width <= 480) {
