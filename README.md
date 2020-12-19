@@ -76,6 +76,12 @@ React patterns & techniques to use in development for React Developer.
 
 * Mutating the state
 
+## Experimental
+
+* Suspense for Data Fetching
+
+* Concurrent UI
+
 ## Contributing
 
 We'd love to have your helping hand on contributions to `reactpatterns` by forking and sending a pull request!
