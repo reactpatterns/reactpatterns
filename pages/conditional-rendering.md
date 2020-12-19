@@ -1,4 +1,4 @@
-# Conditional rendering
+# Conditional Rendering
 
 In JavaScript you should be familiar with if-else or switch case statements. You can use it in JSX as well, since JSX only mixes HTML and JavaScript.
 
