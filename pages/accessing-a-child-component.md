@@ -2,7 +2,7 @@
 
 React provide a way to access to a child's DOM node from a parent component by using `Refs`.
 
-Example:
+For examples:
 
 Assume that you want to put the cursor in the user name fields when the page render.
 
