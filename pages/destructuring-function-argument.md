@@ -1,10 +1,12 @@
-# Destructuring Function Arguments
+# Destructuring Function Argument
 
 Destructuring can be applied to function arguments that are objects or arrays.
 
-Without destructuring:
+## For example
 
-```js
+Without destructuring.
+
+```jsx
 function Modal(props) {
   var onClickNext = props.onClickNext
   var step = props.step
@@ -20,7 +22,7 @@ function Modal(props) {
 
 This function expects a single object as an argument and it is destructured into onClickNext and step.
 
-```js
+```jsx
 function ModalName({ onClickNext, step }) {
   return (
     <div>

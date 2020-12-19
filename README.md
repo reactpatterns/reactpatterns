@@ -50,7 +50,7 @@ React patterns & techniques to use in development for React Developer.
 
 * Destructuring
   * [Basic Destructuring](pages/destructuring.md "Basic Destructuring")
-  * [Destructuring Function Arguments](pages/destructuring-function-arguments.md "Destructuring Function Arguments")
+  * [Destructuring Function Argument](pages/destructuring-function-argument.md "Destructuring Function Argument")
   * [Nested Destructuring](pages/nested-destructuring.md "Nested Destructuring")
   * [Destructuring Rest/Spread Operator](pages/destructuring-rest-and-spread-operator.md "Destructuring Rest/Spread Operator")
 
