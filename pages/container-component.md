@@ -1,14 +1,14 @@
-# Stateful Component (Container Component)
+# Container component (Stateful component)
 
-A Container Component is a container does data fetching and then renders its corresponding sub-component.
+A container does data fetching and then renders its corresponding sub-component.
 
-Assume that you have a component that displays comments. You didn't know about container components. So, you put everything in one place.
+Assume that you have a component that displays comments, you didn't know about container components, so you put everything in one place.
 
-```js
+```jsx
 const fetchSomeComments = cb =>
   cb([
-    { author: "Jonh", body: "Nice to see you here!" },
-    { author: "You", body: "Thanks!" },
+    { author: "Bunlong VAN", body: "Nice to see you here!" },
+    { author: "You", body: "Thanks!" }
   ])
 
 class CommentList extends React.Component {
@@ -37,11 +37,11 @@ ReactDOM.render(
 
 Your component is responsible for both fetching data and presenting it. There's nothing wrong with this but you miss out on a few benefits of React.
 
-CommentList can't be reused unless under the exact same circumstances.
+`CommentList` can't be reused unless under the exact same circumstances.
 
 Lets pull out data-fetching into a container component.
 
-```js
+```jsx
 class CommentListContainer extends React.Component {
   state = { comments: [] }
 
@@ -56,7 +56,7 @@ class CommentListContainer extends React.Component {
 }
 ```
 
-Now, let's rework CommentList to take comments as a prop.
+Now, let's rework `CommentList` to take comments as a prop.
 
 ```js
 const CommentList = props =>
@@ -68,7 +68,6 @@ const CommentList = props =>
 ```
 
 What we got:
-
-* Separated our data-fetching and rendering concerns.
-* Made our CommentList component reusable.
-* Given CommentList the ability to set PropTypes.
+  * Separated our data-fetching and rendering concerns
+  * Made our `CommentList` component reusable
+  * Given `CommentList` the ability to set PropTypes
