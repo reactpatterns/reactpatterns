@@ -2,7 +2,7 @@
 
 In JavaScript an object can be used as an enum when the object is used as a map of key value pairs.
 
-```js
+```jsx
 const ENUM = {
   a: '1',
   b: '2',
@@ -10,9 +10,9 @@ const ENUM = {
 }
 ```
 
-An enum is a great way to have multiple conditional renderings. Let's consider the notification component again. This time we can use the enum as inlined object.
+An enum is a great way to have multiple conditional renderings. Let's consider the notification component again, this time we can use the enum as inlined object.
 
-```js
+```jsx
 function Notification({ text, state }) {
   return (
     <div>
@@ -30,7 +30,7 @@ The state property key helps us to retrieve the value from the object. It is muc
 
 In this case we had to use an inlined object, because the values of the object depend on the `text` property. That would be my recommended way anyway. However, if it wouldn't depend on the text property, you could use an external static enum too.
 
-```js
+```jsx
 const NOTIFICATION_STATES = {
   info: <Info />,
   warning: <Warning />,
@@ -48,7 +48,7 @@ function Notification({ state }) {
 
 Although we could use a function to retrieve the value, if we would depend on the `text` property.
 
-```js
+```jsx
 const getSpecificNotification = (text) => ({
   info: <Info text={text} />,
   warning: <Warning text={text} />,
@@ -64,12 +64,11 @@ function Notification({ state, text }) {
 }
 ```
 
-After all, the enum approach in comparison to the switch case statement is more readable. Objects as enum open up plenty of options to have multiple conditional renderings. Consider this last example to see what's possible:
+After all, the enum approach in comparison to the switch case statement is more readable. Objects as enum open up plenty of options to have multiple conditional renderings. Consider this last example to see what is possible.
 
-```js
+```jsx
 function FooBarOrFooOrBar({ isFoo, isBar }) {
   const key = `${isFoo}-${isBar}`
-
   return (
     <div>
       {{
