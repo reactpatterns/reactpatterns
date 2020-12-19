@@ -4,7 +4,9 @@ Destructuring shown assigns properties of an object to variables of the same nam
 
 Destructuring works with nested objects, with arrays, and can be used in variable declarations, function return values and function arguments.
 
-Without destructuring:
+## For example
+
+Without destructuring.
 
 ```js
 class Modals extends Component {
@@ -18,7 +20,7 @@ class Modals extends Component {
 }
 ```
 
-Destructuring the objects `this.props` and `this.state`:
+Destructuring the objects `this.props` and `this.state`.
 
 ```js
 class ChainedModals extends Component {
