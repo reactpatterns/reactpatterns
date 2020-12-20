@@ -13,4 +13,8 @@ Last but not least there exist external solutions to deal with conditional rende
 </Choose>
 ```
 
-Some people use it. Personally I wouldn't recommend it. JSX allows you to use the powerful set of JavaScript functionalities to handle conditional rendering. There is no need to add templating components to enable conditional rendering. A lot of people consider React including JSX as their library of choice, because they can handle the rendering with pure HTML and JS in JSX.
+Some people use it, personally I wouldn't recommend it.
+
+JSX allows you to use the powerful set of JavaScript functionalities to handle conditional rendering. There is no need to add templating components to enable conditional rendering.
+
+A lot of people consider React including JSX as their library of choice, because they can handle the rendering with pure HTML and JS in JSX.
