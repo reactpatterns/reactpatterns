@@ -1,8 +1,8 @@
 # Multi Level Conditional Rendering
 
-What about nested conditional renderings? Let's have a look at the List component that can either show a list, an empty text or nothing.
+What about nested conditional renderings? Let's have a look at the `List` component that can either show a list, an empty text or nothing.
 
-```js
+```jsx
 function List({ list }) {
   const isNull = !list
   const isEmpty = !isNull && !list.length
@@ -26,9 +26,9 @@ function List({ list }) {
 <List list={['a', 'b', 'c']} /> // <div><div>a</div><div>b</div><div>c</div><div>
 ```
 
-It works. However I would recommend to keep the nested conditional renderings to a minimum. It makes it less readable. My recommendation would be to split it up into smaller components which themselves have conditional renderings.
+It works, however I would recommend to keep the nested conditional renderings to a minimum, it makes it less readable, my recommendation would be to split it up into smaller components which themselves have conditional renderings.
 
-```js
+```jsx
 function List({ list }) {
   const isList = list && list.length
 
