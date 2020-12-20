@@ -2,28 +2,28 @@
 
 You should populate data with AJAX calls in the `componentDidMount` lifecycle method. So you can use setState to update your component when the data is retrieved.
 
-**Class:**
+For example using Class:
 
-```js
+```jsx
 function componentDidMount() {
-  fetch(`api/sms`)
+  fetch('api/sms')
     .then(result => {
       const sms = result.data
-      console.log("COMPONENT WILL Mount messages : ", sms);
+      console.log('COMPONENT WILL Mount messages : ', sms)
       this.setState({sms: [...sms.content]})
     })
 }
 ```
 
-**Hook:**
+For example using Hook:
 
-```js
+```jsx
 useEffect(() => {
-  fetch(`api/sms`)
+  fetch('api/sms')
     .then(result => {
       const sms = result.data
-      console.log("COMPONENT WILL Mount messages : ", sms);
-      setState({sms: [...sms.content]})
+      console.log('COMPONENT WILL Mount messages : ', sms)
+      this.setState({sms: [...sms.content]})
     })
 }, [])
 ```
