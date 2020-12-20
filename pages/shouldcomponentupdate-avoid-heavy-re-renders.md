@@ -1,14 +1,14 @@
-# shouldComponentUpdate Avoid Heavy re-renders
+# shouldComponentUpdate Avoid Heavy Re-render
 
-React component re-render every time the props or state change. So imagine having to render the entire page every time there in an action. That takes a big load on the browser. That's where shouldComponentUpdate comes in, whenever React is rendering the view it checks to see if shouldComponentUpdate is returning false/true. So whenever you have a component that is static let do yourself a favor and return false. Or if not let check to see if the props/state has changed.
+React component re-render every time the props or state change, so imagine having to render the entire page every time there in an action, that takes a big load on the browser, that's where shouldComponentUpdate comes in, whenever React is rendering the view it checks to see if shouldComponentUpdate is returning false/true, so whenever you have a component that is static let do yourself a favor and return false or if not let check to see if the props/state has changed.
 
-Let take a look the below example:
+Let take a look the below example.
 
-```js
+```jsx
 const AutocompleteItem = (props) => {
-  const selectedClass = props.selected === true ? "selected" : ""
+  const selectedClass = props.selected === true ? 'selected' : ''
   var path = parseUri(props.url).path
-  path = path.length <= 0 ? props.url : "..." + path
+  path = path.length <= 0 ? props.url : '...' + path
 
   return (
     <li
@@ -29,19 +29,19 @@ const AutocompleteItem = (props) => {
 }
 ```
 
-This component above has no state which causes it to re-render every time. So what we want is to convert it to a regular component and use the function `shouldComponentUpdate`. Then we want to check if the props that we use in this component have change. If there was a change return true else return false. The component becomes:
+This component above has no state which causes it to re-render every time. So what we want is to convert it to a regular component and use the function `shouldComponentUpdate`. Then we want to check if the props that we use in this component have change. If there was a change return true else return false. The component becomes.
 
-```js
+```jsx
 export default class AutocompleteItem extends React.Component {
   shouldComponentUpdate(nextProps, nextState) {
     return nextProps.url !== this.props.url || nextProps.selected !== this.props.selected
   }
 
   render() {
-    const { props } = this
-    const selectedClass = props.selected === true ? "selected" : ""
-    let path = parseUri(props.url).path
-    path = path.length <= 0 ? props.url : "..." + path
+    const {props} = this;
+    const selectedClass = props.selected === true ? 'selected' : ''
+    var path = parseUri(props.url).path
+    path = path.length <= 0 ? props.url : '...' + path
 
     return (
       <li
