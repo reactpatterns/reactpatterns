@@ -1,4 +1,4 @@
-# Indexes as a Key
+# Indexes as a Key is an Anti-pattern
 
 Keys should be unique so that React can keep a better track of elements.
 
