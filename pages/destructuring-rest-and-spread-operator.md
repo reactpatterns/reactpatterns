@@ -1,9 +1,12 @@
 # Destructuring Rest/Spread Operator
 
-* The `...` rest operator gathers the rest of the items in the props object argument and puts them in the variable rest.
-* The `...` rest in the JSX is actually JSX syntax for spreading the props in the the rest object into individual props.
+The `...` rest operator gathers the rest of the items in the props object argument and puts them in the variable rest.
 
-Without using rest/spread:
+The `...` rest in the JSX is actually JSX syntax for spreading the props in the the rest object into individual props.
+
+## For example
+
+Without using rest/spread.
 
 ```js
 function Modal(props) {
@@ -19,7 +22,7 @@ function Modal(props) {
 }
 ```
 
-Here is an example destructuring rest/spread operator:
+Destructuring rest/spread operator.
 
 ```js
 function Modal({ onClick, ...rest }) {
