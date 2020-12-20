@@ -1,30 +1,32 @@
 # Function as Child Component
 
-A Function as Child Component is a pattern that lets you pass a render function to a component as the children prop. So you can change what you can pass as children to a component.
+## What is Function as Child Component?
 
-Usage:
+A Function as child component is a pattern that lets you pass a render function to a component as the children prop so you can change what you can pass as children to a component.
 
-When you use a Function as child component, instead of passing JSX markup, you assign children as a function:
+## Usage
 
-```js
+When you use a Function as child component, instead of passing JSX markup, you assign children as a function.
+
+```jsx
 <Foo>
   {(name) => <div>`hello from ${name}`</div>}
 </Foo>
 ```
 
-And the `Foo` component would look something like this:
+And the `Foo` component would look something like this.
 
-```js
+```jsx
 const Foo = ({ children }) => {
   return children('foo')
 }
 ```
 
-Example:
+## For examples
 
-Now let take a look at a advanced example of a Function as child component:
+Let take a look at a advanced example of a Function as child component.
 
-```js
+```jsx
 import React from 'react'
 
 class PageWidth extends React.Component {
@@ -51,7 +53,7 @@ class PageWidth extends React.Component {
 
 And then you could use it as.
 
-```js
+```jsx
 <PageWidth>
   {width => <div>Page width is {width}</div>}
 </PageWidth>
