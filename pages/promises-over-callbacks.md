@@ -1,34 +1,34 @@
 # Promises Over Callbacks
 
-For HTTP Requests, our existing solution is to use callbacks:
+For HTTP Request, our existing solution is to use callbacks.
 
-```js
+```jsx
 request(url, (error, response) => {
   // handle success or error.
-})
+});
 
 doSomethingElse()
 ```
 
-A few problems exist with callbacks. One is known as [Callback Hell](http://callbackhell.com "Callback Hell"). A larger problem is decomposition.
+A few problems exist with callbacks. One is known as [callback hell](http://callbackhell.com "Callback Hell"). A larger problem is decomposition.
 
-The callback pattern requires us to specify the task and the callback at the same time. By difference, promises allow us to specify and dispatch the request in one place:
+The callback pattern require us to specify the task and the callback at the same time. By difference, promises allow us to specify and dispatch the request in one place.
 
-```js
-promise = fetch(url) //fetch is a replacement for XMLHttpRequest
+```jsx
+promise = fetch(url) // fetch is a replacement for XMLHttpRequest
 ```
 
-And then add the callback later, and in a different place:
+And then add the callback later, and in a different place.
 
-```js
+```jsx
 promise.then(response => {
-  // handle the response.
+  // handle the response
 })
 ```
 
-This also allows us to attach multiple handlers to the same task:
+This also allows us to attach multiple handlers to the same task.
 
-```js
+```jsx
 promise.then(response => {
   // handle the response.
 })
