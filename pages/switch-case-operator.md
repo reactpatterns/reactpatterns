@@ -4,7 +4,7 @@ Now there might be cases where you have multiple conditional renderings. The con
 
 Let's imagine a notification component that can render an error, warning or info component based on the input state. You can use a switch case operator to handle the conditional rendering of these multiple states.
 
-```js
+```jsx
 function Notification({ text, state }) {
   switch(state) {
     case 'info':
@@ -21,9 +21,9 @@ function Notification({ text, state }) {
 
 Please note that you always have to use the `default` for the switch case operator. In React a component has always to return an element or `null`.
 
-As a little information​ - When a component has a conditional rendering based on a state, it makes sense to describe the interface of the component with `React.PropTypes`.
+As a little information​, when a component has a conditional rendering based on a state, it makes sense to describe the interface of the component with `React.PropTypes`.
 
-```js
+```jsx
 function Notification({ text, state }) {
   switch(state) {
     case 'info':
@@ -47,7 +47,7 @@ Now you have one generic component to show different kinds of notifications. Bas
 
 An alternative way would be to inline the switch case. Therefore you would need a self invoking JavaScript function.
 
-```js
+```jsx
 function Notification({ text, state }) {
   return (
     <div>
