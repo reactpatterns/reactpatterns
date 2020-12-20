@@ -2,9 +2,9 @@
 
 As the application grows you will realise that some components will need common data or actions in one component may need to cause another component to re-render as well.
 
-Let take a look the example below:
+Let take a look the example below.
 
-```js
+```jsx
 // App.js
 
 import React from 'react'
@@ -23,14 +23,14 @@ export class App extends React.Component {
 }
 ```
 
-```js
+```jsx
 // Header.js
 
 import React from 'react'
 
 export class Header extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {customers: []}
   }
 
@@ -45,7 +45,7 @@ export class Header extends React.Component {
 }
 ```
 
-```js
+```jsx
 // List.js
 
 import React from 'react'
@@ -69,9 +69,11 @@ export class List extends React.Component {
 }
 ```
 
-As the example above you are encouraged to lift state up, if two components need to act on the same data or need to use the same callback. It mean that you should create a common ancestor in this common ancestor and then use the state to manage all the data and callbacks that children will use in rendering.
+As the example above you are encouraged to lift state up, if two components need to act on the same data or need to use the same callback.
 
-```js
+So you should create a common ancestor in this common ancestor and then use the state to manage all the data and callbacks that children will use in rendering as following.
+
+```jsx
 // App.js
 
 import React from 'react'
@@ -80,7 +82,7 @@ import List from 'List'
 
 export class App extends React.Component {
   constructor(props){
-    super(props);
+    super(props)
     this.state = {customers: []}
   }
 
@@ -102,7 +104,7 @@ export class App extends React.Component {
 }
 ```
 
-```js
+```jsx
 // Header.js
 
 const Header = ({customers}) => (<div> No of Customer: {customers.length}</div>)
@@ -110,7 +112,7 @@ const Header = ({customers}) => (<div> No of Customer: {customers.length}</div>)
 export Header
 ```
 
-```js
+```jsx
 // List.js
 
 const List = ({customers}) => (
