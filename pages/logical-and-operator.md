@@ -1,8 +1,8 @@
 # Logical && Operator
 
-It happens often that you want to render either an element or nothing. You could have a LoadingIndicator component that returns a loading text or nothing. You can do it in JSX with an if statement or ternary operation.
+It happens often that you want to render either an element or nothing. You could have a `LoadingIndicator` component that returns a loading text or nothing. You can do it in JSX with an if statement or ternary operation.
 
-```js
+```jsx
 function LoadingIndicator({ isLoading }) {
   if (isLoading) {
     return (
@@ -31,7 +31,7 @@ But there is an alternative way that omits the necessity to return null. The log
 
 How does it work? In JavaScript a `true && 'Hello World'` always evaluates to `Hello World` and a `false && 'Hello World'` always evaluates to false.
 
-```js
+```jsx
 const result = true && 'Hello World'
 console.log(result)
 // Hello World
@@ -43,7 +43,7 @@ console.log(result)
 
 In React you can make use of that behaviour. If the condition is true, the expression after the logical `&&` operator will be the output. If the condition is false, React ignores and skips the expression.
 
-```js
+```jsx
 function LoadingIndicator({ isLoading }) {
   return (
     <div>
