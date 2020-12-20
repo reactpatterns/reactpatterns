@@ -1,10 +1,8 @@
 # Render Callback
 
-Take a look at the example below.
+For example below, notice that we create a function `foo` which takes a callback function as a parameter. When we call `foo`, it turns around and calls back to the passed-in function.
 
-Notice that we create a function `foo` which takes a callback function as a parameter. When we call `foo`, it turns around and calls back to the passed-in function.
-
-```js
+```jsx
 const foo = (hello) => {
   return hello('foo')
 }
