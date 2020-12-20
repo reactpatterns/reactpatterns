@@ -22,7 +22,7 @@ React patterns & techniques to use in development for React Developer.
 
 * [Higher-Order Functions](pages/higher-order-functions.md "Higher-Order Functions")
 
-* [Higher-Order Components](pages/higher-order-components.md "Higher-Order Components")
+* [Higher-Order Component](pages/higher-order-component.md "Higher-Order Component")
 
 * [Accessing a Child Component](pages/accessing-a-child-component.md "Accessing a Child Component")
 
