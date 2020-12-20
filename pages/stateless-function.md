@@ -1,9 +1,13 @@
 # Stateless Function (Presentational Component)
 
+## What is Stateless Function?
+
 * Stateless function is a way to define React components as a function. Rather than as a class or via `React.createClass`.
 * Stateless function does not hold state; just props.
 
-Without Stateless function, write a presentational component that is just renders props, and doesn't has state:
+## For examples
+
+Without stateless function, write a presentational component that is just renders props, and doesn't has state.
 
 ```js
 const UserPassword = React.createClass({
@@ -21,7 +25,7 @@ class Userpassword extends React.Component {
 }
 ```
 
-With stateless function:
+With stateless function.
 
 ```js
 const UserPassword = function(props) {
@@ -29,13 +33,13 @@ const UserPassword = function(props) {
 };
 ```
 
-With stateless function, arrow function, destructuring and implicit return:
+With stateless function, arrow function, destructuring and implicit return.
 
 ```js
 const UserPassword = ({userpassword}) => <p>The user password is: {userpassword}</p>
 ```
 
-Stateless function is great for styling as well:
+Stateless function is great for styling as well.
 
 ```js
 const PrimaryButton = props => {
@@ -45,7 +49,7 @@ const PrimaryButton = props => {
 }
 ```
 
-Stateless function with event handlers:
+Stateless function with event handlers.
 
 ```js
 const Button = props => {
@@ -55,7 +59,7 @@ const Button = props => {
 };
 ```
 
-Stateless function can have defined defaultProps, propTypes:
+Stateless function can have defined defaultProps, propTypes.
 
 ```js
 import PropTypes from 'prop-types'
@@ -71,7 +75,7 @@ Username.defaultProps = {
 }
 ```
 
-Stateless function can have defined contextTypes (when using context, it's simply passed in as the second argument):
+Stateless function can have defined contextTypes (when using context, it's simply passed in as the second argument).
 
 ```js
 import PropTypes from 'prop-types'
