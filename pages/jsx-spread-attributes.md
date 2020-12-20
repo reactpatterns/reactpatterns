@@ -1,14 +1,18 @@
 # JSX Spread Attributes
 
-Spread Attributes is a JSX feature, it's a syntax for passing all of an object's properties as JSX attributes.
+## What is JSX Spread Attributes?
 
-If you know all the properties that you want to place on a component ahead of time, it is easy to use JSX:
+Spread attributes is a JSX feature, it's a syntax for passing all of an object's properties as JSX attributes.
+
+## For examples
+
+If you know all the properties that you want to place on a component ahead of time, it is easy to use JSX.
 
 ```js
 const component = <Component foo={x} bar={y} />
 ```
 
-If you don't know which properties you want to set, you might be tempted to add them onto the object later:
+If you don't know which properties you want to set, you might be tempted to add them onto the object later.
 
 ```js
 var component = <Component />;
@@ -16,7 +20,7 @@ component.props.foo = x // bad
 component.props.bar = y // also bad
 ```
 
-Now you can use a new feature of JSX called spread attributes:
+Now you can use a new feature of JSX called spread attributes.
 
 ```js
 let props = {}
