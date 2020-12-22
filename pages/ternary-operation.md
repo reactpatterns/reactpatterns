@@ -1,14 +1,18 @@
 # Ternary Operation
 
+## Syntax
+
 You can make your `if-else` statement more concise by using a ternary operation.
 
-```js
+```jsx
 condition ? expr1 : expr2
 ```
 
+## For example
+
 Imagine you have a toggle to switch between two modes, edit and view, in your component. The derived condition is a simple boolean. You can use the boolean to decide which element you want to return.
 
-```js
+```jsx
 function Item({ item, mode }) {
   const isEditMode = mode === 'EDIT'
 
@@ -25,7 +29,7 @@ function Item({ item, mode }) {
 
 If your blocks in both branches of the ternary operation are getting bigger, you can use parentheses.
 
-```js
+```jsx
 function Item({ item, mode }) {
   const isEditMode = mode === 'EDIT'
 
