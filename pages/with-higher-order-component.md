@@ -1,8 +1,8 @@
 # With Higher Order Component
 
-Higher Order Component are a perfect match for conditional rendering in React. HOC can have multiple use cases. Yet one use case could be to alter the look of a component. To make the use case more specific: it could be to apply a conditional rendering for a component. Let's have a look at a HOC that either shows a loading indicator or a desired component.
+Higher order component is a perfect match for conditional rendering in React. HOC can have multiple use cases. Yet one use case could be to alter the look of a component. To make the use case more specific, it could be to apply a conditional rendering for a component, let's have a look at a HOC that either shows a loading indicator or a desired component.
 
-```js
+```jsx
 // HOC declaration
 function withLoadingIndicator(Component) {
   return function EnhancedComponent({ isLoading, ...props }) {
@@ -14,7 +14,7 @@ function withLoadingIndicator(Component) {
   }
 }
 
-// usage
+// Usage
 const ListWithLoadingIndicator = withLoadingIndicator(List)
 
 <ListWithLoadingIndicator
@@ -23,4 +23,4 @@ const ListWithLoadingIndicator = withLoadingIndicator(List)
 />
 ```
 
-In the example, the List component can focus on rendering the list. It doesn't have to bother with a loading state. Ultimately you could add more HOC to shield away multiple conditional rendering edge cases.
+In the example above, the `List` component can focus on rendering the list. It doesn't have to bother with a loading state. Ultimately you could add more HOC to shield away multiple conditional rendering edge cases.
